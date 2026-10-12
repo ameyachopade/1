@@ -1,0 +1,39 @@
+{
+  "split_type": "grouped_client_holdout",
+  "test_rows": 6163,
+  "test_base_rate": 0.511,
+  "metrics": {
+    "Week 4 Baseline (Rule)": {
+      "precision_at_10": 0.5,
+      "precision_at_20": 0.5,
+      "precision_at_50": 0.42,
+      "precision_at_100": 0.46,
+      "roc_auc": 0.5187,
+      "pr_auc": 0.5185
+    },
+    "Logistic Regression": {
+      "precision_at_10": 0.7,
+      "precision_at_20": 0.8,
+      "precision_at_50": 0.8,
+      "precision_at_100": 0.75,
+      "roc_auc": 0.6277,
+      "pr_auc": 0.6237
+    },
+    "Decision Tree (depth=5)": {
+      "precision_at_10": 0.7,
+      "precision_at_20": 0.65,
+      "precision_at_50": 0.62,
+      "precision_at_100": 0.61,
+      "roc_auc": 0.6088,
+      "pr_auc": 0.5875
+    },
+    "Random Forest": {
+      "precision_at_10": 0.4,
+      "precision_at_20": 0.55,
+      "precision_at_50": 0.64,
+      "precision_at_100": 0.65,
+      "roc_auc": 0.6252,
+      "pr_auc": 0.6157
+    }
+  }
+}
