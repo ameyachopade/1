@@ -1,0 +1,14 @@
+{
+  "dataset_rows": 30000,
+  "base_declining_rate": 0.5421,
+  "precision_at_10": 0.6,
+  "precision_at_20": 0.5,
+  "precision_at_50": 0.38,
+  "precision_at_100": 0.45,
+  "signal_1_staleness_verdict": "MIXED",
+  "signal_2_ctr_vs_position_verdict": "CONFIRMED",
+  "rule_formula": "log1p(impressions_90d) * (0.50 * is_stale + 0.30 * is_striking + 0.20 * is_low_ctr)",
+  "action_distribution_top_100": {
+    "review_snippet_and_ctr": 100
+  }
+}
